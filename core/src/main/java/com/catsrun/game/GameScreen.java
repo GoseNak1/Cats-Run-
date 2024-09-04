@@ -1,9 +1,13 @@
 package com.catsrun.game;
 
-import com.badlogic.gdx.Screen;
+import com.badlogic.gdx.ScreenAdapter;
 
 /** First screen of the application. Displayed after the application is created. */
-public class FirstScreen implements Screen {
+public class GameScreen extends ScreenAdapter {
+
+    public GameScreen(core core){
+
+    }
     @Override
     public void show() {
         // Prepare your screen here.
